@@ -1,0 +1,31 @@
+{
+  "name": "n8n-nodes-jobpostingsapi",
+  "version": "1.0.0",
+  "description": "Official n8n Community & AI Agent Node for JobPostingsAPI.com — Search 18M+ verified B2B job postings across Workday, Greenhouse, Lever, Ashby & LinkedIn for outbound sales signals.",
+  "keywords": [
+    "n8n-community-node-package",
+    "n8n",
+    "jobs-api",
+    "b2b-leads",
+    "hiring-signals",
+    "workday",
+    "greenhouse",
+    "lever"
+  ],
+  "license": "MIT",
+  "homepage": "https://jobpostingsapi.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tttjj80/n8n-nodes-jobpostingsapi.git"
+  },
+  "main": "index.js",
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "credentials": [
+      "dist/credentials/JobPostingsApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/JobPostingsApi/JobPostingsApi.node.js"
+    ]
+  }
+}
